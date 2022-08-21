@@ -1,0 +1,17 @@
+service: servicename #Change service name
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+  memorySize: 128 # optional, in MB, default is 1024
+  timeout: 30 # optional, in seconds, default is 6
+
+functions:
+  myFunction: # Change function name
+    handler: index.handler
+    name: myFunction # Change function name
+    memorySize: 128 # optional, in MB, default is 1024
+    events:
+      - http:
+          path: / #path to function via api gatway
+          method: get
