@@ -1,6 +1,6 @@
 {
-  "name": "lazy-cli",
-  "version": "0.0.1",
+  "name": "lazyts-cli",
+  "version": "0.0.101",
   "description": "Template CLI for the work Smart !Hard Developers",
   "main": "index.js",
   "type": "module",
@@ -8,20 +8,21 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "lazy-cli": "./index.js"
+    "lazy-cli": "./index.js",
+    "lazyts": "./index.js"
   },
   "author": "Rayen Kamta & GEEKSDOBYTE",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.18.10",
-    "@types/node": "^18.7.8",
     "@types/inquirer": "^9.0.1",
+    "@types/node": "^18.7.8",
     "@typescript-eslint/eslint-plugin": "^5.33.1",
     "@typescript-eslint/parser": "^5.33.1",
     "eslint": "^8.22.0",
-      "eslint-config-prettier": "^8.5.0",
-      "eslint-plugin-import": "^2.26.0",
-      "eslint-plugin-prettier": "^4.2.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1"
   },
   "dependencies": {
