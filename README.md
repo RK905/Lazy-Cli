@@ -1,2 +1,2 @@
 # Lazy-Cli
-Template CLI for the work Smart !Hard Developers
+Template CLI for the Work Smart !Hard Developers
